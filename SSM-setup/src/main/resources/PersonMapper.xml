@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--查询映射标签（select）：-->
+<mapper namespace="cn.kgc.mapper.PersonMapper">
+    <select id="findCount" resultType="java.lang.Integer">
+        select count(*) from t_user
+    </select>
+</mapper>
+
