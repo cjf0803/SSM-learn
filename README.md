@@ -54,7 +54,7 @@ Spring里面的IOC容器和AOP是我们平时使用最多的。
 6.连接点：横切关注点在程序代码中的具体体现，对应用程序执行的某个特定位置。（通俗来讲就是一个个的方法）
 7.切入点：切入点就是定位连接点的方式。每个通知上的切入点表达式找到对应的连接点，执行通知之后连接点也就变成了切入点。
 
-![](D:\git\git-up\SSM-learn\images\01.png)
+![](https://github.com/cjf0803/SSM-learn/raw/main/images/01.png)
 
 ### 2.Spring MVC
 
@@ -70,7 +70,7 @@ Spring里面的IOC容器和AOP是我们平时使用最多的。
 9、 ViewReslover解析后返回具体View。
 10、DispatcherServlet根据View进行渲染视图（即将模型数据填充至视图中）。
 11、 DispatcherServlet响应用户。
-![](D:\git\git-up\SSM-learn\images\02.png)
+![](https://github.com/cjf0803/SSM-learn/raw/main/images/02.png)
 
 #### <简单版>
 
@@ -80,7 +80,7 @@ Spring里面的IOC容器和AOP是我们平时使用最多的。
 4.DispacherSerclet查询视图解析器，找到ModelAndView指定的视图
 5.视图负责将结果显示到客户端
 
-![](D:\git\git-up\SSM-learn\images\03.png)
+![](https://github.com/cjf0803/SSM-learn/raw/main/images/03.png)
 
 ### 3.Mybatis （核心是SqlSession）
 
